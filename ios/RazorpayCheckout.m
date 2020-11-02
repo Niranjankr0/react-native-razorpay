@@ -13,12 +13,12 @@
 
 typedef RazorpayCheckout Razorpay;
 
-@interface RazorpayCheckout () <RazorpayPaymentCompletionProtocolWithData,
+@interface RNRazorpayCheckout () <RazorpayPaymentCompletionProtocolWithData,
 ExternalWalletSelectionProtocol>
 
 @end
 
-@implementation RazorpayCheckout
+@implementation RNRazorpayCheckout
 
 RCT_EXPORT_MODULE()
 
